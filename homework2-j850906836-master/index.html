@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+
+  <!-- TODO(you): Make whatever changes needed to complete the homework! -->
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Adopt A Dog And We'll Reveal A Deep Truth About You</title>
+    <link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="images/favicon-16x16.png" sizes="16x16" />
+    <link href="https://fonts.googleapis.com/css?family=Pangolin:400,700|Proxima+Nova" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="provided-style.css"/>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="constants.js" defer="true"></script>
+    <script src="script.js" defer="true"></script>
+  </head>
+
+  <body>
+    <article>
+      <header>
+          <h1>4102165</h1>
+          <div>
+            <span>YAY</span>
+            <span>INT</span>
+            <span>ER</span>
+            <span>NET</span>
+          </div>
+      </header>
+      <h1>Adopt A Dog And We'll Reveal A Deep Truth About You</h1>
+      <p>This is your pupper of truth.</p>
+      <p id="author">
+        By fullstackccu
+      </p>
+
+      <section class="question-name">
+        <h1>Pick a pup:</h1>
+      </section>
+
+      <section class="choice-grid">
+
+        <div id = blep1 data-choice-id="blep" data-question-id="one" onclick="choose('blep1')">
+          <img src="images/blepdog.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div id = happy1 data-choice-id="happy" data-question-id="one" onclick="choose('happy1')">
+          <img src="./images/happydog.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div id = sleeping1 data-choice-id="sleeping" data-question-id="one" onclick="choose('sleeping1')">
+          <img src="./images/sleepingdog.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div id = dopey1 data-choice-id="dopey" data-question-id="one" onclick="choose('dopey1')">
+          <img src="./images/dopeydog.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div id = burger1 data-choice-id="burger" data-question-id="one" onclick="choose('burger1')">
+          <img src="./images/burgerdog.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+       <div id = cart1 data-choice-id="cart" data-question-id="one" onclick="choose('cart1')">
+         <img src="./images/cartdog.jpg"/>
+         <img class="checkbox" src="images/unchecked.png"/>
+       </div>
+
+      <div id = nerd1 data-choice-id="nerd" data-question-id="one" onclick="choose('nerd1')">
+        <img src="./images/nerddog.jpg"/>
+        <img class="checkbox" src="images/unchecked.png"/>
+      </div>
+
+      <div id = shy1 data-choice-id="shy" data-question-id="one" onclick="choose('shy1')">
+        <img src="./images/shydog.jpg"/>
+        <img class="checkbox" src="images/unchecked.png"/>
+      </div>
+
+      <div id = sleepy1 data-choice-id="sleepy" data-question-id="one" onclick="choose('sleepy1')">
+        <img src="./images/sleepydog.jpg"/>
+        <img class="checkbox" src="images/unchecked.png"/>
+      </div>
+
+      </section>
+
+      <section class="question-name">
+        <h1>Pick a dog bed:</h1>
+      </section>
+
+      <section class="choice-grid">
+        <div id = blep2 data-choice-id="blep" data-question-id="two" onclick="choose('blep2')">
+          <img src="images/blepbed.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div id = happy2 data-choice-id="happy" data-question-id="two" onclick="choose('happy2')">
+          <img src="./images/happybed.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div id = sleeping2 data-choice-id="sleeping" data-question-id="two" onclick="choose('sleeping2')">
+          <img src="./images/sleepingbed.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div id = dopey2 data-choice-id="dopey" data-question-id="two" onclick="choose('dopey2')">
+          <img src="./images/dopeybed.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div id = burger2 data-choice-id="burger" data-question-id="two" onclick="choose('burger2')">
+          <img src="./images/burgerbed.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div id = cart2 data-choice-id="cart" data-question-id="two" onclick="choose('cart2')">
+          <img src="./images/cartbed.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div id = nerd2 data-choice-id="nerd" data-question-id="two" onclick="choose('nerd2')">
+          <img src="./images/nerdbed.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div id = shy2 data-choice-id="shy" data-question-id="two" onclick="choose('shy2')">
+          <img src="./images/shybed.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div id = sleepy2 data-choice-id="sleepy" data-question-id="two" onclick="choose('sleepy2')">
+          <img src="./images/sleepybed.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+      </section>
+
+      <section class="question-name">
+        <h1>Pick a toy:</h1>
+      </section>
+
+      <section class="choice-grid">
+        <div id = blep3 data-choice-id="blep" data-question-id="three" onclick="choose('blep3')">
+          <img src="images/bleptoy.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div id = happy3 data-choice-id="happy" data-question-id="three" onclick="choose('happy3')">
+          <img src="./images/happytoy.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div id = sleeping3 data-choice-id="sleeping" data-question-id="three" onclick="choose('sleeping3')">
+          <img src="./images/sleepingtoy.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div id = dopey3 data-choice-id="dopey" data-question-id="three" onclick="choose('dopey3')">
+          <img src="./images/dopeytoy.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div id = burger3 data-choice-id="burger" data-question-id="three" onclick="choose('burger3')">
+          <img src="./images/burgertoy.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div id = cart3 data-choice-id="cart" data-question-id="three" onclick="choose('cart3')">
+          <img src="./images/carttoy.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div id = nerd3 data-choice-id="nerd" data-question-id="three" onclick="choose('nerd3')">
+          <img src="./images/nerdtoy.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div id = shy3 data-choice-id="shy" data-question-id="three" onclick="choose('shy3')">
+          <img src="./images/shytoy.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+
+        <div id = sleepy3 data-choice-id="sleepy" data-question-id="three" onclick="choose('sleepy3')">
+          <img src="./images/sleepytoy.jpg"/>
+          <img class="checkbox" src="images/unchecked.png"/>
+        </div>
+      </section>
+
+      <div id = finished >
+        <p id = result_title></p>
+        <p id = result_content></p>
+        <button onclick="restart()"> Restart quiz </button>
+      </div>
+
+    </article>
+  </body>
+</html>

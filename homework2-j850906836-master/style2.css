@@ -1,0 +1,76 @@
+/* TODO(you): Write the CSS to finish the assignment! */
+:root {
+    --grid-width: 100%;
+    --square-size: calc((var(--grid-width) / 1000) * 325); 
+}
+
+@media (max-width: 700px){
+    article {
+        width: 95%;
+    }
+    header span {
+        visibility: hidden;
+    }
+}
+@media (max-width: 500px){
+    :root {
+        --grid-width: 100%;
+        --square-size: calc((var(--grid-width) / 100) * 49); 
+    }
+    header span {
+        visibility: hidden;
+    }
+    article {
+        width: 95%;
+    }
+}
+
+
+
+.choice-grid {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: space-between;
+    justify-content: space-between;
+}
+
+.choice-grid div{
+    width: var(--square-size);
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: #f4f4f4;
+    border: 1px #dcdcdc;
+    padding: 10px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.choice-grid div img {
+    width: 100%;
+}
+
+#show_result {
+    visibility: hidden;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+#context {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#restart {
+    width: 100%;
+    background-color: #cecece;
+    height: 50px;
+    text-align: center;
+}
+
+#restart:hover {
+    background-color: #e0e0e0;
+}

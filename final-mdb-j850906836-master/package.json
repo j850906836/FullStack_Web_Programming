@@ -1,0 +1,21 @@
+{
+  "name": "final-mdb-j850906836-master",
+  "version": "1.0.0",
+  "description": "CS193X Final Project",
+  "main": "server.js",
+  "engines": {
+    "node": "12.3.1",
+	"npm": "6.9.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "mongodb": "^2.2.27"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "CS193X Student",
+  "license": "MIT"
+}

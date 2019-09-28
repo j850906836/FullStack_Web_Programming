@@ -1,0 +1,82 @@
+:root {
+	--grid-width: 100%;
+	--squre-size: calc((var(--grid-width) / 1000) *325)
+}
+@media (max-width:700px){
+  article {
+    width: 95%;
+  }
+  header div {
+    display: none;
+  }
+}
+@media (max-width:500px) {
+	:root {
+		--grid-width: 100%;
+		--squre-size: calc((var(--grid-width) / 100) *49)
+	}
+	article {
+		width: 95%;
+	}
+	header div {
+		display: none;
+	}
+}
+
+img.checkbox{
+	margin-top: 5px;
+  height: 20px;
+  width: 20px;
+  padding: 0px;
+}
+section div {
+	width: var(--squre-size);
+	background-color: #f4f4f4;
+	justify-content: center;
+	align-item: center;
+	display: block;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+/*	margin-top: 10px;*/
+	margin-bottom: 20px;
+  padding: 10px;
+}
+section.choice-grid {
+  width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: space-between;
+	border-width: 1px;
+	border-color: #dcdcdc;
+	flex-wrap: wrap;
+}
+.choice-grid img {
+	width: 100%;
+}
+#finished {
+	margin-top: 20px;
+	width: = 100%;
+	padding: 20px;
+	margin-bottom: 20px;
+	box-sizing: border-box;
+}
+#result_title {
+	font-size: 30px;
+	font-weight: bold;
+	margin-top: 0px; 
+	margin-bottom: 18px;
+}
+#result_content {
+	font-size: 20px;
+}
+div button {
+	background-color: #cecece;
+	text-align: center;
+	width: 100%;
+	height: 50px;
+	font-size: 20px;
+}
+div button:hover {
+	background-color: #e0e0e0;
+}
