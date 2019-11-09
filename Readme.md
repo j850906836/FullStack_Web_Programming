@@ -54,3 +54,5 @@ GIF會隨著音樂的重音改變而更換
 
 前端使用: html、css、Javascript
 後端使用: Node.JS
+
+此作業皆為個人獨力完成
