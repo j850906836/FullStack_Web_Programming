@@ -31,6 +31,7 @@ Bonus: 可偵測游標位置並更改Twitter背景顏色及游標樣式的Google
 卡牌小測驗，背景會隨著滑鼠游標變色，並記錄結果
 
 使用語言: html、css、JavaScript
+
 #作業四
 ---------------------------
 
@@ -38,12 +39,14 @@ Bonus: 可偵測游標位置並更改Twitter背景顏色及游標樣式的Google
 GIF會隨著音樂的重音改變而更換
 
 使用語言: html、css、JavaScript
+
 #作業五
 ---------------------------
 
 可選擇不同操作，Get、Delete、Post、Patch，並更改Google Sheet之後端資料庫
 
 使用語言: Node.JS
+
 #期末專題
 ---------------------------
 
